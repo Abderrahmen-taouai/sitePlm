@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plombier Professionnel - Urgence 24/7</title>
+    <script src="main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="input.css">
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <img src="../images/logo.png" alt="Logo" class="h-12">
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-blue-600 font-semibold">Accueil</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600">À Propos</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600">Services</a>
+                    
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">
+                        Contact
+                    </a>
+                </div>
+                <button class="md:hidden">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 bg-blue-50  bg-[url(../images/fond-logo-mg-plomberie-A3QrKwEV8ksblJDV.webp)] bg-cover">
+        <div class="container mx-auto px-4 py-24 " >
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-5xl font-bold mb-6">Service de Plomberie Professionnel</h1>
+                    <p class="text-lg text-gray-900 mb-8">
+                        Intervention rapide 24h/24 pour tous vos problèmes de plomberie
+                    </p>
+                    <button class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700">
+                        Appelez-nous: 679-456-987
+                    </button>
+                </div>
+                <div class="relative">
+                    <img src="plumber-hero.jpg" alt="Plombier" class="rounded-lg shadow-xl">
+                    <div class="absolute -bottom-8 -left-8 bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold text-blue-600">10+ Ans</h3>
+                        <p class="text-gray-600">d'Expérience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="bg-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-blue-50 p-8 rounded-lg">
+                    <i class="fas fa-tools text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Service Rapide</h3>
+                    <p class="text-gray-600">Intervention sous 1 heure</p>
+                </div>
+                <div class="bg-blue-50 p-8 rounded-lg">
+                    <i class="fas fa-users text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Experts Certifiés</h3>
+                    <p class="text-gray-600">Professionnels qualifiés</p>
+                </div>
+                <div class="bg-blue-50 p-8 rounded-lg">
+                    <i class="fas fa-euro-sign text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Prix Transparents</h3>
+                    <p class="text-gray-600">Devis gratuit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Nos Services</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Solutions complètes en plomberie pour les particuliers
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow border-l-4 border-blue-600">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        <!-- Code injected by live-server -->
+
+</svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Réparation de Fuites</h3>
+                    <p class="text-gray-600">Détectation et réparation rapide des fuites d'eau dans votre domicile</p>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow border-l-4 border-blue-600">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        <!-- Code injected by live-server -->
+
+</svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Urgence Plomberie</h3>
+                    <p class="text-gray-600">Interventions 24h/24 et 7j/7 pour urgences critiques</p>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow border-l-4 border-blue-600">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                        <!-- Code injected by live-server -->
+
+</svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Installation Sanitaire</h3>
+                    <p class="text-gray-600">Installation de salles de bain, lavabos, robinetterie et sanitaires</p>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow border-l-4 border-blue-600">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        <!-- Code injected by live-server -->
+
+</svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Entretien Chauffe-Eau</h3>
+                    <p class="text-gray-600">Maintenance et réparation de chauffe-eau électrique et gaz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <img src="about.jpg" alt="À propos" class="rounded-lg shadow-xl">
+                <div>
+                    <h2 class="text-4xl font-bold mb-4">10 Ans d'Expérience</h2>
+                    <p class="text-gray-600 mb-6">
+                        Notre engagement envers la qualité et la satisfaction client
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            Techniciens certifiés
+                        </li>
+                        <!-- Add more list items -->
+                    </ul>
+                    <button class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700">
+                        En savoir plus
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Contact</h4>
+                    <p class="text-gray-400">24 Rue de la Plomberie<br>75000 Paris<br>Tel: 679-456-987</p>
+                </div>
+                <!-- Add more footer columns -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="bg-gray-900 text-gray-400 py-4">
+        <div class="container mx-auto px-4 text-center">
+            © 2025 Plombier Pro. Tous droits réservés
+        </div>
+    </div>
+</body>
+</html>

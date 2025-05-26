@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Custom styles can go here */
+.slider {
+  position: relative;
+}
+
+.slide {
+  display: none; /* Hide all slides by default */
+}
+
+.fade {
+  display: block; /* Show the current slide */
+}
